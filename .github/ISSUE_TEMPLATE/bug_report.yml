@@ -1,0 +1,37 @@
+name: Bug report
+description: Report a reproducible problem in Obtrace or one of its public SDKs.
+title: "[Bug]: "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting an issue. Please include enough detail for reproduction.
+  - type: input
+    id: area
+    attributes:
+      label: Area
+      description: Which repository, SDK, or product area is affected?
+      placeholder: obtrace-sdk-js / frontend / docs / core
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: What happened?
+      description: Describe the problem and expected behavior.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Reproduction
+      description: Steps, sample code, or requests needed to reproduce.
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: Runtime, SDK version, browser, OS, or deployment details.
