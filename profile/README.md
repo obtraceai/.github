@@ -8,7 +8,7 @@ SDK-first observability for modern applications.
 
 ## Documentation
 
-- https://obtrace.dev/docs
+- https://docs.obtrace.ai/
 
 ## SDKs
 

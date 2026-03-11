@@ -4,7 +4,7 @@
 
 Start with the public documentation:
 
-- https://obtrace.dev/docs
+- https://docs.obtrace.ai/
 
 ## GitHub Issues
 

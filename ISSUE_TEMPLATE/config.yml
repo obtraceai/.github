@@ -4,5 +4,5 @@ contact_links:
     url: mailto:security@obtrace.dev
     about: Please report security issues privately.
   - name: Support
-    url: https://obtrace.dev/docs
+    url: https://docs.obtrace.ai/
     about: Check the documentation before opening a support request.
