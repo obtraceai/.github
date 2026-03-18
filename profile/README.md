@@ -39,11 +39,3 @@ Obtrace supports [MCP](https://modelcontextprotocol.io/) for AI-assisted develop
 | [MCP Server](https://docs.obtrace.ai/docs/mcp) | Connect obtrace to AI coding assistants (Cursor, Claude, Copilot) |
 | `docs/mcp.md` | MCP integration guide available in each SDK repo |
 | `llm.txt` | LLM-readable context file available in each SDK repo |
-
-## Simulators
-
-| Simulator | Purpose | Repository |
-|-----------|---------|------------|
-| Node.js | HTTP traces, logs, metrics | [obtrace-sim-node](https://github.com/obtraceai/obtrace-sim-node) |
-| Java | Payment service simulation | [obtrace-sim-java](https://github.com/obtraceai/obtrace-sim-java) |
-| Browser | RUM and Web Vitals | [obtrace-sim-browser](https://github.com/obtraceai/obtrace-sim-browser) |
