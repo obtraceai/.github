@@ -4,7 +4,7 @@
 
 # Obtrace
 
-SDK-first observability for modern applications.
+SDK-first observability for modern applications. AI-powered root cause analysis, auto-fix PRs, session replay, and cost attribution.
 
 ## Documentation
 
@@ -12,12 +12,38 @@ SDK-first observability for modern applications.
 
 ## SDKs
 
-- JavaScript / Node.js: [obtrace-sdk-js](https://github.com/obtraceai/obtrace-sdk-js)
-- Browser: [obtrace-sdk-browser](https://github.com/obtraceai/obtrace-sdk-browser)
-- Go: [obtrace-sdk-go](https://github.com/obtraceai/obtrace-sdk-go)
-- Python: [obtrace-sdk-python](https://github.com/obtraceai/obtrace-sdk-python)
-- Java: [obtrace-sdk-java](https://github.com/obtraceai/obtrace-sdk-java)
-- .NET: [obtrace-sdk-dotnet](https://github.com/obtraceai/obtrace-sdk-dotnet)
-- PHP: [obtrace-sdk-php](https://github.com/obtraceai/obtrace-sdk-php)
-- Ruby: [obtrace-sdk-ruby](https://github.com/obtraceai/obtrace-sdk-ruby)
-- Kubernetes Integration: [obtrace-sdk-k8s-integration](https://github.com/obtraceai/obtrace-sdk-k8s-integration)
+| Language | Repository |
+|----------|------------|
+| JavaScript / Node.js | [obtrace-sdk-js](https://github.com/obtraceai/obtrace-sdk-js) |
+| Browser | [obtrace-sdk-browser](https://github.com/obtraceai/obtrace-sdk-browser) |
+| Go | [obtrace-sdk-go](https://github.com/obtraceai/obtrace-sdk-go) |
+| Python | [obtrace-sdk-python](https://github.com/obtraceai/obtrace-sdk-python) |
+| Java | [obtrace-sdk-java](https://github.com/obtraceai/obtrace-sdk-java) |
+| .NET | [obtrace-sdk-dotnet](https://github.com/obtraceai/obtrace-sdk-dotnet) |
+| PHP | [obtrace-sdk-php](https://github.com/obtraceai/obtrace-sdk-php) |
+| Ruby | [obtrace-sdk-ruby](https://github.com/obtraceai/obtrace-sdk-ruby) |
+
+## Infrastructure Agents
+
+| Agent | Purpose | Repository |
+|-------|---------|------------|
+| Kubernetes | Cluster, pod, and node metrics | [obtrace-sdk-k8s-integration](https://github.com/obtraceai/obtrace-sdk-k8s-integration) |
+| Database | Postgres, MySQL, MongoDB, Redis, Cassandra, Elasticsearch, ClickHouse, CockroachDB, SQLite | [obtrace-db-agent](https://github.com/obtraceai/obtrace-db-agent) |
+
+## MCP (Model Context Protocol)
+
+Obtrace supports [MCP](https://modelcontextprotocol.io/) for AI-assisted development and debugging. Connect your AI coding assistant to your observability data.
+
+| Resource | Description |
+|----------|-------------|
+| [MCP Server](https://docs.obtrace.ai/docs/mcp) | Connect obtrace to AI coding assistants (Cursor, Claude, Copilot) |
+| `docs/mcp.md` | MCP integration guide available in each SDK repo |
+| `llm.txt` | LLM-readable context file available in each SDK repo |
+
+## Simulators
+
+| Simulator | Purpose | Repository |
+|-----------|---------|------------|
+| Node.js | HTTP traces, logs, metrics | [obtrace-sim-node](https://github.com/obtraceai/obtrace-sim-node) |
+| Java | Payment service simulation | [obtrace-sim-java](https://github.com/obtraceai/obtrace-sim-java) |
+| Browser | RUM and Web Vitals | [obtrace-sim-browser](https://github.com/obtraceai/obtrace-sim-browser) |
