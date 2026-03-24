@@ -23,6 +23,14 @@ SDK-first observability for modern applications. AI-powered root cause analysis,
 | PHP | [obtrace-sdk-php](https://github.com/obtraceai/obtrace-sdk-php) |
 | Ruby | [obtrace-sdk-ruby](https://github.com/obtraceai/obtrace-sdk-ruby) |
 
+## Auto-Instrumentation
+
+| Tool | Purpose | Repository |
+|------|---------|------------|
+| **Obtrace Zero** `NEW` | Zero-touch K8s operator — auto-detects language, injects SDK or eBPF sidecar, no code changes | [obtrace-zero](https://github.com/obtraceai/obtrace-zero) |
+
+> `obtrace-zero install --api-key=obt_live_xxx` — one command, full cluster observability. Supports Node.js, Python, Java, .NET, PHP, Ruby via SDK injection and Go, Rust, C++ via eBPF kernel tracing. [Docs](https://docs.obtrace.ai/docs/obtrace-zero) · [Quickstart](https://docs.obtrace.ai/docs/obtrace-zero/quickstart)
+
 ## Infrastructure Agents
 
 | Agent | Purpose | Repository |
