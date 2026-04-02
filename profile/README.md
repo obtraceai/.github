@@ -16,6 +16,7 @@ SDK-first observability for modern applications. AI-powered root cause analysis,
 |----------|------------|
 | JavaScript / Node.js | [obtrace-sdk-js](https://github.com/obtraceai/obtrace-sdk-js) |
 | Browser | [obtrace-sdk-browser](https://github.com/obtraceai/obtrace-sdk-browser) |
+| Supabase Edge Functions | [obtrace-supabase](https://github.com/obtraceai/obtrace-supabase) |
 | Go | [obtrace-sdk-go](https://github.com/obtraceai/obtrace-sdk-go) |
 | Python | [obtrace-sdk-python](https://github.com/obtraceai/obtrace-sdk-python) |
 | Java | [obtrace-sdk-java](https://github.com/obtraceai/obtrace-sdk-java) |
